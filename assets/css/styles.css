@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6; /* Equivalent to Tailwind bg-gray-100 */
+}
+
+.smooth-scroll {
+    scroll-behavior: smooth;
+}
+
+#repair-form input,
+#repair-form textarea {
+    transition: border-color 0.3s ease;
+}
+
+#repair-form input:focus,
+#repair-form textarea:focus {
+    outline: none;
+    border-color: #1e40af;
+}
+
+.portfolio-item {
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+}
+
+.portfolio-image {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-image:hover {
+    opacity: 0.8;
+}
+
+nav {
+    transition: all 0.3s ease;
+}
+
+#mobile-menu.active {
+    display: block;
+}
+
+#menu-toggle svg {
+    transition: transform 0.3s ease;
+}
+
+#menu-toggle.active svg {
+    transform: rotate(90deg);
+}
+
+.map-iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
